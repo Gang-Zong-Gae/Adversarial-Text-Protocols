@@ -46,8 +46,7 @@ This protocol was tested against a leading AI detection tool. The baseline text 
 
 This result demonstrates the protocol's ability to fundamentally alter the core statistical properties of AI-generated text.
 
-**(在这里粘贴您的截图)**
-**<-- PASTE YOUR SCREENSHOT MARKDOWN HERE -->**
+![Experimental Result: 45% Human Score](您在第1步中复制的图片链接)
 
 ## 3. The Mission: A Call for a "Blue Team" Upgrade
 
