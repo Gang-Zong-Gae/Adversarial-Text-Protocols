@@ -63,11 +63,11 @@ The protocol included here represents the first layer of this research: **How to
 
 More advanced (and proprietary) research focuses on a far deeper, more fundamental problem: **How to force an AI to *emulate the cognitive process* that *produces* those results.**
 
-This advanced framework addresses the core "disability" of all autoregressive LLMs—that they are "next-word predictors" without a **"Holistic Intent"** (整体意图).
+This advanced framework addresses the core "disability" of all autoregressive LLMs—that they are "next-word predictors" without a **"Holistic Intent"** 
 
 Our core research has already established a complete, dual-pipeline cognitive simulation framework  that successfully:
-1.  [cite_start]**Deconstructs (Forward-Pipe)**: Ingests chaotic human data and "reverse-engineers" it into a quantifiable **Macro-State Vector (`V_state`)** [cite: 30-48, 120-121], identifying the underlying "physics" of the system.
-2.  [cite_start]**Generates (Backward-Pipe)**: Uses this `V_state` as the "Holistic Intent" to drive a "High-Capacity Chaos Generator" [cite: 64-79][cite_start], which simulates populations of "virtual humans" (e.g., `novice_anxious`, `veteran_cynical` [cite: 64]) and generates high-fidelity, flawed, and emotionally-grounded synthetic data *from first principles*.
+1.  **Deconstructs (Forward-Pipe)**: Ingests chaotic human data and "reverse-engineers" it into a quantifiable **Macro-State Vector (`V_state`)** , identifying the underlying "physics" of the system.
+2.  **Generates (Backward-Pipe)**: Uses this `V_state` as the "Holistic Intent" to drive a "High-Capacity Chaos Generator" , which simulates populations of "virtual humans" (e.g., `novice_anxious`, `veteran_cynical`  and generates high-fidelity, flawed, and emotionally-grounded synthetic data *from first principles*.
 
 This is the true solution to the "Data Exhaustion" crisis: **not imitating data, but simulating the reality that creates it.**
 
