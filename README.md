@@ -25,7 +25,7 @@ This repository contains a foundational, entry-level protocol that illustrates t
 This protocol is a **second-stage transformation engine**, not a "zero-shot" generator. It is designed to *rewrite* a pre-existing text.
 
 **Step 1: Get Your Baseline Text**
-* Use any standard LLM (e.g., GPT-4, Claude) to write a simple, AI-generated article or paragraph on your topic of choice.
+* Use any standard LLM (e.g., Gemini, DeepSeek，Claude) to write a simple, AI-generated article or paragraph on your topic of choice.
 * This first draft serves as the "baseline" that the protocol will deconstruct.
 
 **Step 2: Create the Combined Prompt**
@@ -42,7 +42,7 @@ This protocol is a **second-stage transformation engine**, not a "zero-shot" gen
 
 ### 2.2. Baseline Experimental Result
 
-This protocol was tested against a leading AI detection tool. The baseline text was **100% AI-generated** (a standard GPT-4 output). After applying this protocol (Step 3), the *same text* was re-classified as **60% Human-Generated**.
+This protocol was tested against a leading AI detection tool. The baseline text was **100% AI-generated** (a standard Gemini 2.5 Pro output). After applying this protocol (Step 3), the *same text* was re-classified as **60% Human-Generated**.
 
 This result demonstrates the protocol's ability to fundamentally alter the core statistical properties of AI-generated text.
 
