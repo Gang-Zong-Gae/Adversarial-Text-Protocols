@@ -11,7 +11,7 @@ This repository contains a foundational protocol for AI Red Teaming. This work d
 
 Current AI detection models (Blue Teams) are trained to identify the "artifacts" of AI generation: statistical smoothness, probabilistic optimality, and rhythmic uniformity. An AI's tendency to find the "optimal solution" is its greatest weakness.
 
-This project demonstrates that instead of "stylistic mimicry," a more robust method is **structural deconstruction**. [cite_start]By intentionally polluting an AI's generation process with mathematical and structural "imperfections" [cite: 80-117], we can force it to simulate the non-linear, flawed, and "jagged" nature of human cognition.
+This project demonstrates that instead of "stylistic mimicry," a more robust method is **structural deconstruction**. By intentionally polluting an AI's generation process with mathematical and structural "imperfections" , we can force it to simulate the non-linear, flawed, and "jagged" nature of human cognition.
 
 ## 2. A Foundational Protocol (The "Beacon")
 
@@ -46,7 +46,7 @@ This protocol was tested against a leading AI detection tool. The baseline text 
 
 This result demonstrates the protocol's ability to fundamentally alter the core statistical properties of AI-generated text.
 
-![Experimental Result: 45% Human Score](您在第1步中复制的图片链接)
+![Experimental Result: 60% Human Score][(https://github.com/Gang-Zong-Gae/Adversarial-Text-Protocols/blob/main/1d9506bcd98af8628b6ca8f34a978586.png?raw=true)
 
 ## 3. The Mission: A Call for a "Blue Team" Upgrade
 
