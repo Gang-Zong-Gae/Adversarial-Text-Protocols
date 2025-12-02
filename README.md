@@ -1,3 +1,5 @@
+⭐ This is the official demo implementation of "The Necessity of Imperfection" (arXiv 2512.01354)
+
 # Adversarial-Text-Protocols
 A foundational protocol for AI Red Teaming, using mathematical perturbation to deconstruct and bypass statistical smoothness in LLMs.
 # Adversarial Text Protocols for LLM Red Teaming
