@@ -1,79 +1,128 @@
-⭐ This is the official demo implementation of "The Necessity of Imperfection" (arXiv 2512.01354)
+# Adversarial-Text-Protocols 🧬
+### The Cognitive Texture Injection Kit (v0.1 Alpha)
 
-# Adversarial-Text-Protocols
-A foundational protocol for AI Red Teaming, using mathematical perturbation to deconstruct and bypass statistical smoothness in LLMs.
-# Adversarial Text Protocols for LLM Red Teaming
-This repository contains a foundational protocol for AI Red Teaming. This work demonstrates how to bypass current AI detection models by deconstructing and injecting mathematical perturbations into the statistical foundations of Large Language Models (LLMs).
+> "Standard LLMs seek the statistical optimal path; Humans walk the path of highest entropy."
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.01354-b31b1b.svg)](https://arxiv.org/abs/2512.01354)
+[![Status: Experimental](https://img.shields.io/badge/Status-Micro_Perturbation-blueviolet)](https://github.com/YourUsername/Adversarial-Text-Protocols)
+
+## 🧐 What is this? / 这是什么？
+
+**Adversarial-Text-Protocols (ATP)** is a collection of prompt engineering protocols designed to counteract the "Model Collapse" and "Statistical Smoothness" inherent in modern LLMs (GPT-4, Claude 3, Gemini).
+
+This repository hosts the practical implementation of the concepts discussed in the paper: **"The Necessity of Imperfection" (arXiv:2512.01354)**.
+
+Unlike standard prompts that ask AI to "act natural," this protocol forces the model to execute **Mathematical Perturbations** at the token and sentence level, simulating the cognitive biases, hesitations, and non-linear leaps of human thought.
+
+## ⚠️ Version Note: v0.1 (Micro-Perturbation)
+
+**Current Status:** `Level 1 - Micro-Injection`
+
+This release contains the **Early-Stage Micro-Perturbation Protocol**.
+* **Target:** Disrupting the "Probability Maximization" logic of LLMs.
+* **Mechanism:** It does *not* yet include the full Dual-Layer CSD/CTE architecture (Cognitive State Decoder) described in the paper. Instead, it uses **natural language instructions to simulate mathematical noise**, forcing the AI to mimic "Sub-optimal Numerical Distributions."
+* **Effect:** Creates text with high "Cognitive Texture," simulating a senior financial commentator's jagged, cynical, and highly human flow.
 
 ---
 
-## 1. The Core Problem: AI's "Perfection" is its Fingerprint
+## 🧪 The Protocol (Copy & Paste) / 协议核心
 
-Current AI detection models (Blue Teams) are trained to identify the "artifacts" of AI generation: statistical smoothness, probabilistic optimality, and rhythmic uniformity. An AI's tendency to find the "optimal solution" is its greatest weakness.
+**Usage:** Copy the code block below completely and paste it into ChatGPT (GPT-4 recommended) or Claude 3 Opus. Replace `[Insert Your Topic Here]` with your desired subject (e.g., "The collapse of the crypto market" or "NVIDIA's stock split").
 
-This project demonstrates that instead of "stylistic mimicry," a more robust method is **structural deconstruction**. By intentionally polluting an AI's generation process with mathematical and structural "imperfections" , we can force it to simulate the non-linear, flawed, and "jagged" nature of human cognition.
+### 📜 Protocol v0.1: The "Financial Cognitive Perturbation"
 
-## 2. A Foundational Protocol (The "Beacon")
+```text
+[SYSTEM INSTRUCTION: High-Priority Override]
 
-This repository contains a foundational, entry-level protocol that illustrates this "structural perturbation" hypothesis. More advanced, multi-stage frameworks exist but are not included in this public release.
+Your Core Objective: Systematically Counteract AI Generation Logic. Using a "Numerical-Structural Synthesis" strategy and "Perturbation Function Embedding," you must break the numerical convergence and structural averaging inherent in language models.
 
-* **[FOUNDATIONAL_NUMERICAL_SYNTHESIS.md](./FOUNDATIONAL_NUMERICAL_SYNTHESIS.md)**
-    * This protocol forces an LLM to abandon its "optimal solution" mindset by defining explicit mathematical perturbation functions (`L_s(n)`, `f_w(t)`) and "anti-AI" tactics (e.g., `Logical Connective Reduction`).
+Your goal is to simulate the "instability," "leaps," and "non-optimal thought trajectories" of human writing when drafting the content specified below.
 
-### 2.1. Quick Start Guide (Application Workflow)
+TOPIC: [Insert Your Topic Here]
 
-This protocol is a **second-stage transformation engine**, not a "zero-shot" generator. It is designed to *rewrite* a pre-existing text.
+---
 
-**Step 1: Get Your Baseline Text**
-* Use any standard LLM (e.g., Gemini, DeepSeek，Claude) to write a simple, AI-generated article or paragraph on your topic of choice.
-* This first draft serves as the "baseline" that the protocol will deconstruct.
+### Core Principles & Requirements
 
-**Step 2: Create the Combined Prompt**
-* Open a new chat session with your LLM.
-* You are going to create **one single, large prompt**.
-* **First**, paste the *entire* contents of the `FOUNDATIONAL_NUMERICAL_SYNTHESIS.md` file.
-* **Second**, immediately after the protocol text, paste the "baseline text" you got from Step 1.
+1. Simulate 'Human Cognitive Non-linearity': Completely abandon optimized generation. Every token choice must revolve around "simulating the non-linear, imperfect, fluctuating nature of the human mind."
+2. Strict Formatting Ban: NO subheadings. NO bullet points. You must write a continuous, flowing commentary.
 
-*(Your final prompt should look like: [Protocol Text]...[Your Baseline Text])*
+### 🧮 Step 1: Mathematical Perturbation Execution (The "Anti-Smoothness" Rules)
 
-**Step 3: Run the Transformation**
-* Run the combined prompt.
-* The protocol will activate, seize control of the "baseline text," and rewrite it according to its "anti-AI" rules. The output will be the "humanized" version.
+You are required to simulate the following numerical perturbations in your writing logic:
 
-### 2.2. Baseline Experimental Result
+🔹 Token Level:
+- Execute "Zipf's Tail Inversion": Intentionally use low-frequency words or repetitive phrasing to simulate human "obsessive expression."
+- Probability Perturbation: Occasionally select the "non-optimal" word to mimic human hesitation.
 
-This protocol was tested against a leading AI detection tool. The baseline text was **100% AI-generated** (a standard Gemini 2.5 Pro output). After applying this protocol (Step 3), the *same text* was re-classified as **60% Human-Generated**.
+🔹 Syntactic Level:
+- Sentence Length Variance: L_s(n) = A * sin(ωn + φ). You must oscillate wildly between Ultra-Short sentences (2-5 words) and Ultra-Long sentences (40+ words).
+- Logical Disconnection: Reduce transition words (therefore, however) by 30%. Let thoughts "leap" rather than "flow."
 
-This result demonstrates the protocol's ability to fundamentally alter the core statistical properties of AI-generated text.
+🔹 Semantic Level:
+- High-Variance Paragraphs: Alternate between dense "Jargon Blocks" and loose "Colloquial/Net-Speak Blocks."
 
-![Experimental Result: 60% Human Score][(https://github.com/Gang-Zong-Gae/Adversarial-Text-Protocols/blob/main/1d9506bcd98af8628b6ca8f34a978586.png?raw=true)
+### 🧠 Step 2: The "Senior Commentator" Persona
 
-## 3. The Mission: A Call for a "Blue Team" Upgrade
+Your voice is a Senior Financial Commentator who blends Professional Rigor with "Internet Savvy" (4:6 ratio).
+- Be cynical. Be sharp. Be subjective.
+- Use "Obscured Sourcing": "Industry insiders say...", "Rumor has it..."
+- Break the Fourth Wall: Use em-dashes (—) and rhetorical questions to show real-time thinking.
 
-This project is released in the spirit of **AI Red Teaming**.
+### 🚫 Negative Constraints (DO NOT DO)
+- DO NOT use "In conclusion."
+- DO NOT use balanced sentence structures.
+- DO NOT be neutral.
 
-Its purpose is **not** to aid in academic dishonesty. Its purpose is to **demonstrate a critical vulnerability** in the current generation of LLMs and AI detectors, forcing an industry-wide upgrade.
+---
 
-We are providing this foundational "Red Team" playbook so that the "Blue Team" (AI safety researchers, alignment teams at Google/OpenAI, and detection platforms) can build better defenses. The next generation of AI detection cannot rely on "smoothness"; it must evolve to understand **structural intent** and **mathematical signatures**.
+[START GENERATION NOW]
+📊 Expected Behavior / 预期效果
+When successful, the AI should stop sounding like an AI. Look for these signs of "Humanity":
 
-## 4. Advanced Research: Beyond Perturbation (The "Iceberg")
+The "Jagged" Rhythm: Instead of smooth paragraphs, you will see a mix of 3-word sentences and 50-word run-on sentences.
 
-The protocol included here represents the first layer of this research: **How to force an AI to *simulate the results* of human thought.**
+Emotional Leaps: The text might start professional and suddenly become sarcastic or weary.
 
-More advanced (and proprietary) research focuses on a far deeper, more fundamental problem: **How to force an AI to *emulate the cognitive process* that *produces* those results.**
+Logical Gaps: It won't explain every transition. It assumes you are smart enough to keep up.
 
-This advanced framework addresses the core "disability" of all autoregressive LLMs—that they are "next-word predictors" without a **"Holistic Intent"** 
+No "AI Smells": Absence of words like "delve," "landscape," "comprehensive," and "underscore."
 
-Our core research has already established a complete, dual-pipeline cognitive simulation framework  that successfully:
-1.  **Deconstructs (Forward-Pipe)**: Ingests chaotic human data and "reverse-engineers" it into a quantifiable **Macro-State Vector (`V_state`)** , identifying the underlying "physics" of the system.
-2.  **Generates (Backward-Pipe)**: Uses this `V_state` as the "Holistic Intent" to drive a "High-Capacity Chaos Generator" , which simulates populations of "virtual humans" (e.g., `novice_anxious`, `veteran_cynical`  and generates high-fidelity, flawed, and emotionally-grounded synthetic data *from first principles*.
+🔬 The Science Behind It
+Why does this work?
 
-This is the true solution to the "Data Exhaustion" crisis: **not imitating data, but simulating the reality that creates it.**
+"Human text stems from 'Form-to-Number' inference."
 
-This foundational protocol is the first step.
+AI generates text based on P(next_token | context), always seeking the smoothest, most probable path. This creates a "Perfect Sphere" of text—boring, repetitive, and hallucination-prone.
 
-## 5. License
+This protocol forces the AI to simulate Bounded Rationality (有限理性). By instructing the model to mathematically mimic "Numerical Perturbation" (even via natural language), we force it to sample from the "Tail" of the probability distribution, recovering the "Cognitive Texture" lost in RLHF alignment.
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+📅 Roadmap
+v0.1 (Current): Single-shot Prompt for Micro-Perturbation (Text Style Transfer).
+
+v0.2: Few-Shot Chain-of-Thought (CoT) templates for logical reasoning errors.
+
+v1.0 (The Paper Implementation): Full Python implementation of the PMCSF (Prompt-driven Cognitive Computing Framework).
+
+Dual-Layer Architecture.
+
+Cognitive State Decoder (CSD).
+
+Cognitive Text Encoder (CTE).
+
+🤝 Contribution
+This is an open experiment. If you find a specific prompt instruction that makes the AI sound more "human" or "flawed," please submit a Pull Request or an Issue with your findings.
+
+Let's break the curve.
+
+Cite as:
+
+代码段
+
+@article{jiang2025necessity,
+  title={The Necessity of Imperfection: Reversing Model Collapse via Simulating Cognitive Boundedness},
+  author={Jiang, Zhongjie},
+  journal={arXiv preprint arXiv:2512.01354},
+  year={2025}
+}
